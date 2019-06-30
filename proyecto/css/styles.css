@@ -1,0 +1,362 @@
+/* Reiniciar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo Menú */
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 5.5em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+/* Clases General */
+
+/* container mantendrá el contenido centrado y con un máximo de ancho */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+  
+}
+
+
+.text-primary {
+  color: #FFBF00;
+}
+.text-primary1 {
+  color: #0080FF;
+}
+
+.text-primary2 {
+	color: #5DE2E0;
+}
+.text-primary3 {
+	color: #FF0000;
+}
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #FFBF00;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #939797;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #0080FF;
+}
+
+.bg-dark {
+  background: #222141;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #0080FF;
+}
+
+.bg-primary {
+  background: #585858;
+  color: #FAFAFA;
+  font-size: 14px;
+}
+
+.bg-personajes {
+  background: url(../IMGP/fondo2d.jpg) no-repeat center center/cover;
+  color: #fff;
+}
+
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 40px;
+}
+
+.l-heading1 {
+  font-size: 40px;
+  text-align: center;
+  color: #dfe32a;
+}
+
+/* Padding */
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+ /* Navbar */
+ #navbar {
+   background: #222141;
+   overflow: auto;
+ }
+
+#navbar a {
+  color: #0080FF;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+	/*List-style sirve para no marcar un puntito*/
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li{
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  border-color: #3d8e33;
+  background: #f4f4f4;
+  color: #04024D;
+}
+
+/* Bienvenida */
+
+#welcome {
+  background: url('../IMGP/fondo1d.jpg') no-repeat center center/cover;
+  height: 600px;
+}
+#welcome .welcome-content {
+  color: #fff;
+  text-align: justify;
+  padding-top: 170px;
+}
+
+#welcome .welcome-content h1 {
+  font-family: French script MT;
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#welcome .welcome-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+#welcome .container {
+  overflow: hidden !important;
+}
+
+/* Información Principal */
+
+#home-info {
+  height: 550px;
+}
+
+#home-info .info-img {
+  float: center;
+  width: 0%;
+  background: url('https://via.placeholder.com/800x800') no-repeat  center cover;
+  min-height: 0%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 70%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+  line-height: 1.7em;
+}
+
+#home-info .info-content1 {
+  float: left;
+  width: 50%;
+  height: 70%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+  line-height: 1.7em;
+}
+
+#home-info .info-content p , .info-content1 p {
+  padding-bottom: 30px;
+}
+
+/* Información Secundaria */
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  line-height: 1.7em;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Acerca de */
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  line-height: 1.7em;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+#about-info .info-left { 
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  line-height: 1.7em;
+}
+#about-info h1{
+	font-family: French script MT;
+}
+#about-info p{
+	color: #000000;
+}
+
+/* Testimonos */
+#testimonials {
+  height: 600px;
+  background: url('../IMGP/a1.jpg') no-repeat center center/cover;
+  padding-top: 0 auto;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 40px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  opacity: 0.9;
+  font-size: 15px;
+}
+
+#testimonials .testimonial img {
+  width: 80px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+/* Forma de Contacto */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #5BBF21;
+}
+
+/* Pie de página */
+#main-footer {
+  text-align: center;
+  background: #222141;
+  color: #fff;
+  padding: 20px;
+}
+
+/*Personajes*/
+
+#per{
+	background: url(../IMGP/fondo2d.jpg);
+    width: 80%;
+    margin: 0 auto;
+}
+#per h1{
+	text-align: center;
+}
+
+#datos, #principal{
+    float: left;
+    padding: 0;
+    margin: 0;
+	line-height: 1.7em;
+}
+
+#datos{
+width: 25%;
+}
+
+#principal {
+width: 75%;
+text-align: center;
+}
+
+#contenido{
+list-style-type: none;
+padding: 0;
+text-align: center;
+}
+/* Se utiliza para la lista, le decimos que va del lado izquierdo*/
+#contenido li{
+border: 10px;
+float: left;
+width: 33%;
+}
+
